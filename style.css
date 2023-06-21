@@ -1,0 +1,44 @@
+*{
+  background-color: lightblue;
+  font-family:helvetica;
+}
+h1{
+  color:darkgray;
+  text-align:center;
+  font-weight:bolder;
+  text-shadow: 2px 2px blue;
+  
+}
+h2{
+  text-align:left;
+  font-weight:lighter;
+  text-decoration:underline;
+}
+input{
+  background-color:white;
+  border:1px solid gray;
+}
+button{
+  
+  font-size: 12px;
+  background-color:white;
+  border-radius:5px;
+}
+button:hover{
+  font-size: 12px;
+  color:white;
+  background-color:gray;
+  font-weight:bolder;
+  border-radius:5px;
+}
+.footer{
+  font-size: 12px;
+  font-weight:lighter;
+  text-align:center;
+}
+.note{
+  color:darkred;
+  font-size: 12px;
+  font-weight:bolder;
+  text-align:left;
+}

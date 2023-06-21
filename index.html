@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <!-- the title of the page -->
+    <title> Student Grade Calculator </title>
+    <!--Meta data about the programmer -->
+    <meta name="programmer" content= "Mhd Raja Abou Harb">
+    <!--link for the CSS style file of the page -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- link for the JS file of the page -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- showing the logo of the University -->
+      <img src="https://scontent.fsaw2-1.fna.fbcdn.net/v/t1.6435-9/65589974_457918425029125_2892801572121608192_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Qe0HSWOnd6UAX-Y6kbI&_nc_ht=scontent.fsaw2-1.fna&oh=00_AfAqcLw5B4WXl5-10ImxW7r9JC4dgbxOoeQHJbO6WJq9BA&oe=649D2DF7" alt="70px" width="200px" height="70px"></img>
+  
+  <h1>Student Grade Calculation System<h1>
+      <hr>
+    <h2> student Info</h2>
+    <!-- Input for the Student Info -->
+    <p class="note"> <ins> Note: </ins> all the fields remarked with " <sup>*</sup> " are obligatory to be entered.</p> 
+    <p>Name<sup>*</sup>: <input type="text" id="name" required /></p>
+    <p>Student ID <sup>*</sup>: <input type="text" id="ID" required /></p>
+    <hr>
+    <h2>Grades Details</h2>
+        <form id="gradeForm">
+    <label for="numClasses">Number of Classes<sup>*</sup>:</label>
+    <input type="number" id="numClasses" name="numClasses" min="1" required><br>
+    <!-- the place to get the grades -->
+    <div id="gradeInputs"></div>
+    <!-- the buttom "submit" for starting calculating the grades-->
+    <button type="submit">Submit</button>
+    <!-- the buttom "reset" for resetting the input -->
+    <button type="button" onclick="resetForm()">Reset</button>
+      
+  </form>
+    <hr>
+    <!-- place to show the grades results-->
+    <div id="results">.</div>
+    
+    <hr>
+    <p class="footer"> Copyright © 2023. All Rights Reserved. </p>
+  </body>
+</html>
